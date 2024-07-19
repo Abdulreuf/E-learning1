@@ -1,0 +1,86 @@
+/* Cooler CSS for your To-Do List application */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    width: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Even cooler shadow on hover */
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 28px; /* Slightly larger heading for extra impact */
+  }
+  
+  #taskInput {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+  }
+  
+  #addButton {
+    display: block; /* Separate the button from the input field */
+    width: 100%; /* Button takes full width */
+    padding: 11px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #addButton:hover {
+    background-color: #45a049;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  /* New styling for the "Remove Completed" button */
+
+  
+ 
+  
+  .container .remove-button {
+    display: block; /* To ensure it takes full width */
+    width: calc(100% - 0px); /* Adjusting for padding */
+    margin:  auto; /* Center align within the container */
+  }
+  
+  /* Cooler CSS for your To-Do List application */
+
+/* ... (Previous styles remain unchanged) ... */
+.remove-button {
+  padding: 10px 10px  10px  10px;
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
