@@ -1,0 +1,55 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Calculator Container */
+.calculator {
+    width: 300px;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Display */
+#display {
+    width: 100%;
+    height: 80px;
+    background: #222;
+    color: #fff;
+    text-align: right;
+    padding: 20px;
+    font-size: 2em;
+    border: none;
+    outline: none;
+}
+
+/* Keys Container */
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    background: #f5f5f5;
+}
+
+/* Individual Keys */
+.keys button {
+    height: 60px;
+    font-size: 1.5em;
+    border: none;
+    background: #fff;
+    box-shadow: 0 3px #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.keys button:active {
+    box-shadow: 0 1px #ccc;
+    transform: translateY(2px);
+}
